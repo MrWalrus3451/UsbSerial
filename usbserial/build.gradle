@@ -18,7 +18,6 @@ android {
     defaultConfig {
         minSdkVersion Integer.parseInt(project.ANDROID_BUILD_MIN_SDK_VERSION)
         targetSdkVersion Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
-        archivesBaseName = "${project.name}-${project.VERSION_NAME}"
         consumerProguardFiles 'proguard-rules.pro'
     }
 
